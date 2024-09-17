@@ -1,0 +1,157 @@
+.content, header {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer, header {
+    background: #d6f1f1c5;
+    text-align: center;
+    color:black;
+}
+.logo, footer, header {
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    color: #551515;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+   
+    color: #8000ff;
+    text-decoration: none;
+    transition: color .3s;
+}
+nav ul li a:hover {
+    color: rgb(211, 14, 208);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f7ef0f;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(112, 60, 60, 0.2);
+    z-index: 1;
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+    text-align: left;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+}
+.dropdown .dropbtn::after {
+    
+    margin-left: 5px;
+}
+.dropdown:hover .dropbtn::after {
+    transform: rotateX(180deg);
+}
+.dropdown-content a {
+    color: #000;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.logo {
+    margin-bottom: 0px;
+}
+.logo::after{
+    content: 'EVENT HUB';
+    font-weight: 900;
+    font-style: italic;
+    font-family: sans-serif;
+    text-decoration:overline;
+}
+.logo img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* footer section  */
+footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-section {
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  
+  /* @media (max-width: 768px) {
+   .footer-section {
+      display: block;
+      margin: 0;
+    } 
+  } */
+ /* footer {
+    color: #666;
+    width: 100%;
+    padding: 20px 0;
+} */
+.about-us {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.social-media {
+    margin-top: 20px;
+}
+.social-media a {
+    margin-right: 10px;
+} 
+@media only screen and (max-width:650px) {
+    .content, header {
+    padding: 10px;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+.about-us {
+    padding: 0 20px;
+}
+.footer-section {
+    display: block;
+    margin: 0;
+  }
+}

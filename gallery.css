@@ -1,0 +1,310 @@
+.gallery {
+display:flex;
+gap: 20px;
+flex-wrap: wrap;
+margin: 0 auto;
+justify-content: center;
+}
+
+.gallery-item {
+width: 300px;
+height: 200px;
+
+overflow: hidden;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.if{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.bg-1649b845c47695dc2041946d41859e87___Copy_250 {
+    width: 250px;
+     height: 250px;
+    background: url('css_sprites1.png') -10px -10px;
+  
+}
+
+
+.bg-023016223f37df8b0e04f14f85e45bd5_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -280px -10px;
+}
+
+.bg-birthday2_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -10px -280px;
+}
+
+
+.bg-birthday3_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -280px -280px;
+}
+
+
+.bg-birthday4_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -550px -10px;
+}
+
+.bg-birthday5_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -550px -280px;
+}
+
+.bg-party1_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -10px -550px;
+}
+
+.bg-party2_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -280px -550px;
+}
+
+.bg-party3_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -550px -550px;
+}
+
+.bg-party4_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -820px -10px;
+}
+
+.bg-party5_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -820px -280px;
+}
+
+.bg-party6_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -820px -550px;
+}
+
+.bg-wedding1_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -10px -820px;
+}
+
+.bg-wedding2_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -280px -820px;
+}
+
+.bg-wedding3_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -550px -820px;
+}
+
+.bg-wedding4_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -820px -820px;
+}
+
+.bg-wp2349396_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -1090px -10px;
+}
+
+.bg-wp2349409_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -1090px -280px;
+}
+
+.bg-wp2349444_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -1090px -550px;
+}
+
+.bg-wp2349450_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -1090px -820px;
+}
+
+.bg-wp2349475_250 {
+    width: 250px; height: 250px;
+    background: url('css_sprites1.png') -10px -1090px;
+}
+
+
+.gallery-item img {
+width: 100%;
+height: auto;
+display: block;
+}
+    .bg-imag14wedding4 {
+width: 200px; height: 133px;
+background: url('css_sprites.png') -10px -167px;
+}
+
+    .bg-image2party {
+        width: 200px;
+        height: 134px;
+        background: url('css_sprites.png') -230px -10px;
+    }
+
+
+    .bg-image3birthday2 {
+        width: 200px;
+        height: 137px;
+        background: url('css_sprites.png') -10px -10px;
+    }
+
+
+    .bg-image4birthday3 {
+        width: 200px;
+        height: 112px;
+        background: url('css_sprites.png') -230px -167px;
+    }
+
+
+    .bg-image4birthday4 {
+        width: 200px;
+        height: 112px;
+        background: url('css_sprites.png') -450px -10px;
+    }
+
+
+    .bg-image5birthday5 {
+        width: 200px;
+        height: 112px;
+        background: url('css_sprites.png') -450px -142px;
+    }
+
+
+    .bg-image6party1 {
+        width: 200px;
+        height: 112px;
+        background: url('css_sprites.png') -10px -320px;
+    }
+
+
+    .bg-image6party2 {
+        width: 200px;
+        height: 112px;
+        background: url('css_sprites.png') -230px -320px;
+    }
+
+
+    .bg-image7party3 {
+        width: 200px;
+        height: 112px;
+        background: url('css_sprites.png') -450px -320px;
+    }
+    @media only screen and (min-width: 575px) {
+        .bg-1649b845c47695dc2041946d41859e87___Copy_250 {
+            width: 250px; height: 250px;
+            background: url('image/023016223f37df8b0e04f14f85e45bd5.jpg') -10px -10px;
+          
+        }
+        
+        
+        .bg-023016223f37df8b0e04f14f85e45bd5_250 {
+            width: 250px; height: 250px;
+            background: url('image/birthday2.jpg') -280px -10px;
+        
+        
+        }
+        
+        .bg-birthday2_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -10px -280px;
+        }
+        
+        
+        .bg-birthday3_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -280px -280px;
+        }
+        
+        
+        .bg-birthday4_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -550px -10px;
+        }
+        
+        .bg-birthday5_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -550px -280px;
+        }
+        
+        .bg-party1_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -10px -550px;
+        }
+        
+        .bg-party2_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -280px -550px;
+        }
+        
+        .bg-party3_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -550px -550px;
+        }
+        
+        .bg-party4_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -820px -10px;
+        }
+        
+        .bg-party5_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -820px -280px;
+        }
+        
+        .bg-party6_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -820px -550px;
+        }
+        
+        .bg-wedding1_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -10px -820px;
+        }
+        
+        .bg-wedding2_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -280px -820px;
+        }
+        
+        .bg-wedding3_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -550px -820px;
+        }
+        
+        .bg-wedding4_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -820px -820px;
+        }
+        
+        .bg-wp2349396_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -1090px -10px;
+        }
+        
+        .bg-wp2349409_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -1090px -280px;
+        }
+        
+        .bg-wp2349444_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -1090px -550px;
+        }
+        
+        .bg-wp2349450_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -1090px -820px;
+        }
+        
+        .bg-wp2349475_250 {
+            width: 250px; height: 250px;
+            background: url('css_sprites1.png') -10px -1090px;
+        }
+    }
